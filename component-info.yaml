@@ -1,14 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: mambaby
-  description: Shopware plugins for the mam project
+  name: testrepo
+  description: plugin
   tags:
-    - shopware
     - php
   annotations:
-    github.com/project-slug: moonshiner-agency/mambaby
-    backstage.io/techdocs-ref: url:https://github.com/moonshiner-agency/mambaby
+    github.com/project-slug: das-basti/test-repo
 spec:
   type: service
   owner: john@example.com
