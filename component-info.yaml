@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: mambaby
+  description: Shopware plugins for the mam project
+  tags:
+    - shopware
+    - php
+  annotations:
+    github.com/project-slug: moonshiner-agency/mambaby
+    backstage.io/techdocs-ref: url:https://github.com/moonshiner-agency/mambaby
+spec:
+  type: service
+  owner: john@example.com
+  lifecycle: experimental
